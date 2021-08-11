@@ -15,18 +15,18 @@
 '''
 Problem: Partition the set [-5, 9, 4] such that the sum of the subsets are equal
 
-Note: Use this exercise if you have access to Leap
+Note: Use this exercise if you DO NOT have access to Leap
 '''
 
 # 1. Import packages
-from dwave.system import DWaveSampler, EmbeddingComposite
+from neal import SimulatedAnnealingSampler
 
 # 2. TODO: Define the problem by adding in the biases for each term in the QUBO dictionary
 Q = {('x0', 'x0'): , ('x1', 'x1'): , ('x2', 'x2'): ,
      ('x0', 'x1'): , ('x1', 'x2'): , ('x0', 'x2'): }
 
 # 3. Instantiate a solver
-solver = EmbeddingComposite(DWaveSampler())
+solver = SimulatedAnnealingSampler()
 
 # 4. Solve the problem
 sampleset = solver.sample_qubo(Q, chain_strength=50, num_reads=100)

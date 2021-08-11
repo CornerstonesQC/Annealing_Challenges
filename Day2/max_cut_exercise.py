@@ -37,12 +37,12 @@ Q = defaultdict(int)
 for i, j in G.edges:
     # TODO: Update Q matrix for every edge in the graph
 
-# 3. TODO: Instantiate a QPU solver
+# 3. TODO: Instantiate a QPU or classical solver
 
-# 4. TODO: Solve the problem on the QPU solver
+# 4. TODO: Solve the problem on the solver
 sampleset =
 
-# TODO: Bonus - examine the results with the inspector
+# TODO: Bonus - examine the results with the inspector (only for problems run on the QPU)
 
 # 5. Interpret the results
 print(sampleset)
