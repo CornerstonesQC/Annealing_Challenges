@@ -13,11 +13,15 @@ Day 2 is all about programing and getting familiar with Ocean.
 
 
 ### Ocean installation and set up
-To run a problem on D-Wave's quantum computer, you need to install Ocean and
-sign up for a Leap account. Leap is only available in certain countries (although
-we're working on expanding that list). If you reside outside of a Leap 
-supported country you can still install Ocean, but will have to run the
-problems on a classical solver.
+To run a problem on D-Wave's quantum computer, you need to sign up for a Leap account. If you 
+want to run the assignments from your laptop you also need to install Ocean, otherwise you
+can use the online Leap IDE. The Leap IDE is an online IDE that comes with Ocean preinstalled 
+and automatically syncs to your Leap account. To open this repository in the Leap IDE go to  
+https://ide.dwavesys.io/#https://github.com/CornerstonesQC/Annealing_Challenges
+
+Leap is only available in certain countries (although we're working on expanding that list).
+If you reside outside of a Leap supported country you can still install Ocean, but will 
+have to run the problems on a classical solver.
 
 Before you start these exercises you need to
 1. [Sign up for Leap](https://cloud.dwavesys.com/leap/signup) (if in a [supported country](https://support.dwavesys.com/hc/en-us/articles/360051869733-From-What-Countries-Can-I-Access-Leap-))
