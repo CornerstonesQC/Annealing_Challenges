@@ -29,7 +29,7 @@ Q = {('x0', 'x0'): , ('x1', 'x1'): , ('x2', 'x2'): ,
 solver = SimulatedAnnealingSampler()
 
 # 4. Solve the problem
-sampleset = solver.sample_qubo(Q, chain_strength=50, num_reads=100)
+sampleset = solver.sample_qubo(Q)
 
 # 5. Interpret results
 print(sampleset)
